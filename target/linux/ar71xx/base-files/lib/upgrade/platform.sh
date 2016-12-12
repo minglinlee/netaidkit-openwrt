@@ -219,6 +219,7 @@ platform_check_image() {
 	ew-dorin-router | \
 	hiwifi-hc6361 | \
 	hornet-ub-x2 | \
+	alfa-ap121f | \
 	mzk-w04nu | \
 	mzk-w300nh | \
 	tew-632brp | \

@@ -1,3 +1,5 @@
+#src-git netaidkit https://github.com/radicallyopensecurity/netaidkit-feeds;trunk
+src-git netaidkit_ap121f https://github.com/minglinlee/netaidkit-feeds.git;alfa-ap121f
 src-git packages https://github.com/openwrt/packages.git;for-15.05
 src-git luci https://github.com/openwrt/luci.git;for-15.05
 src-git routing https://github.com/openwrt-routing/packages.git;for-15.05

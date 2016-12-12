@@ -76,3 +76,14 @@ define Profile/TUBE2H/Description
 endef
 
 $(eval $(call Profile,TUBE2H))
+
+define Profile/ALFAAP121F
+	NAME:=ALFA Network AP121F board
+	PACKAGES:= kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+endef
+
+define Profile/ALFAAP121F/Description
+    Package set optimized for the ALFA Network AP121F board.
+endef
+
+$(eval $(call Profile,ALFAAP121F))

@@ -124,6 +124,9 @@ get_status_led() {
 	hornet-ub-x2)
 		status_led="alfa:blue:wps"
 		;;
+	alfa-ap121f)
+		status_led="alfa:blue:sys"
+		;;
 	ja76pf | \
 	ja76pf2)
 		status_led="jjplus:green:led1"

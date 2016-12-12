@@ -120,6 +120,16 @@ define Device/Default
   IMAGE/sysupgrade.bin = append-kernel $$$$(BLOCKSIZE) | append-rootfs | pad-rootfs | check-size $$$$(IMAGE_SIZE)
 endef
 
+define Device/alfa-ap121f
+  DEVICE_PROFILE := ALFAAP121F
+  BOARDNAME = ALFA-AP121F
+  CONSOLE = ttyATH0,115200
+  MTDPARTS = spi0.0:256k(u-boot)ro,64k(u-boot-env)ro,16000k(firmware),64k(art)ro
+  IMAGE_SIZE = 16000k
+  IMAGES := sysupgrade.bin factory.img
+endef
+TARGET_DEVICES += alfa-ap121f
+
 define Device/bsb
   BOARDNAME = BSB
   IMAGE_SIZE = 16000k

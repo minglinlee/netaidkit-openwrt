@@ -503,6 +503,9 @@ ar71xx_board_detect() {
 			name="hornet-ub-x2"
 		fi
 		;;
+	*"AP121F")
+		name="alfa-ap121f"
+		;;
 	*LS-SR71)
 		name="ls-sr71"
 		;;
